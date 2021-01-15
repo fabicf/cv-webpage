@@ -1,3 +1,11 @@
+:root {
+  --first-light-color: #f9faf8;
+  --second-light-color: #a39d9f;
+  --dark-color: #4a3331;
+  --one-colorful: #cad25b;
+  --two-colorful: #f25d73;
+}
+
 body {
   /* background-color: brown; */
 }
@@ -10,6 +18,13 @@ body {
 .home-name {
   border: 1px solid orange;
   /* padding: 10rem; */
+}
+.home-small-img {
+  border: 1px solid blue;
+}
+.home-small-img > img {
+  border: 1px solid orange;
+  border-radius: 50%;
 }
 
 .home-picture {
@@ -69,4 +84,21 @@ body {
 
 .portfolio-img-box {
   border: 1px solid red;
+}
+
+.portfolio-img-box > img {
+  /* border: 1px solid red; */
+  border-radius: 2rem;
+}
+
+.portfolio-img-box > img:hover {
+  border: 1px solid var(--second-light-color);
+  opacity: 0.8;
+  border-radius: 2rem;
+}
+
+/* ======== Footer=========== */
+
+.footer-icon {
+  /* color: red; */
 }
