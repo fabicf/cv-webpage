@@ -1,0 +1,72 @@
+body {
+  /* background-color: brown; */
+}
+/* ================== home ================ */
+.home-ctn {
+  border: 1px solid green;
+  /* background-color: brown; */
+}
+
+.home-name {
+  border: 1px solid orange;
+  /* padding: 10rem; */
+}
+
+.home-picture {
+  border: 1px solid red;
+}
+
+.home-picture > img {
+  border: 1px solid green;
+  /* height: auto; */
+}
+
+/* ============= about ================*/
+
+.about-ctn {
+  border: 1px solid blue;
+}
+
+.about-skills-row {
+  border: 1px solid red;
+  justify-content: center;
+}
+.about-skills-square {
+  border: 1px solid purple;
+  padding: 1rem;
+  justify-content: center;
+  text-align: -webkit-center;
+}
+.about-skills-circle {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid blue;
+  /* background-color: blue; */
+  padding: 1rem;
+  border-radius: 5rem;
+}
+
+/* ========Education and Exp =============== */
+.education-ctn {
+  border: 1px solid pink;
+}
+
+.education-board {
+  border: 1px solid red;
+}
+
+.education-board-inside {
+  border: 2px solid orange;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+/* ====== Portfolio ============= */
+
+.portfolio-ctn {
+  border: 1px solid green;
+}
+
+.portfolio-img-box {
+  border: 1px solid red;
+}
